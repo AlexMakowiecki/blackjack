@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <h1>Blackjack</h1>
+  </header>
+  <main id="gameboard" class="gameboard" data-deck="">
+    <h2 id="game-state">Who will win?</h2>
+    <h3>
+      Crupier count: <span id="crupier-score">0</span>
+    </h3>
+    <div class="cards-display">
+      <div id="crupier-cards" class="cards-slot"></div>
+      <div id="player-cards" class="cards-slot"></div>
+    </div>
+    <h3>
+      Your count: <span id="player-score">0</span>
+    </h3>
+    <div>
+      <button id="begin-button" class="begin-button"> Begin </button>
+      <button id="hit-button" class="hit-button hidden"> Hit </button>
+      <button id="stand-button" class="stand-button hidden"> Stand </button>
+    </div>
+    <div class="currency-container">
+      <img src="img/casino-chip-2.png">
+      <p id="currency-counter" class="currency-display">35</p>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
