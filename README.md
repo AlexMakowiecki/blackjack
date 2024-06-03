@@ -32,6 +32,11 @@ The website was done to practice interaction with APIs and for my entertainment.
   - max-width used on the gameboard, to prevent the currency container from straying too far from the game.
     - currency container added as an absolute element with gameboard as its relative parent.
 ## Concepts learned in the course
+  - **Promises states:** pending, fulfilled and rejected
+  - Use of `.then()` to run a function when a promise is fulfilled, using the data returned from the promise.
+  - Use of await and async to make synchronous promises.
+## Preview
+![blackjack](https://github.com/AlexMakowiecki/blackjack/assets/122258496/6d248bc9-fb3f-42e8-8b12-b13a61c075f7)
 
 ## About Scrimba
 
